@@ -1,0 +1,120 @@
+{
+  "side": "left",
+  "fps": 30.0,
+  "strokes": 17,
+  "cadence_rpm": 62.06896551724138,
+  "pedaling_seconds": 16.6,
+  "bdc_frames": [
+    27,
+    59,
+    92,
+    123,
+    154,
+    184,
+    212,
+    243,
+    270,
+    298,
+    327,
+    356,
+    384,
+    412,
+    440,
+    470,
+    496
+  ],
+  "tdc_frames": [
+    46,
+    76,
+    109,
+    139,
+    169,
+    199,
+    227,
+    256,
+    285,
+    313,
+    343,
+    372,
+    399,
+    427,
+    455,
+    483
+  ],
+  "metrics": {
+    "knee": {
+      "label": "Knee bend at bottom",
+      "value": 27.03031701019586,
+      "n": 17,
+      "iqr": 2.300015053351302,
+      "low": 30.0,
+      "high": 40.0,
+      "graded": true,
+      "grade": "red"
+    },
+    "torso": {
+      "label": "Torso from horizontal",
+      "value": 43.954128373342826,
+      "n": 17,
+      "iqr": 1.3933276826434735,
+      "low": 40.0,
+      "high": 50.0,
+      "graded": true,
+      "grade": "green"
+    },
+    "elbow": {
+      "label": "Elbow bend",
+      "value": 24.04573358750983,
+      "n": 17,
+      "iqr": 5.274265020987826,
+      "low": 15.0,
+      "high": 30.0,
+      "graded": true,
+      "grade": "green"
+    },
+    "shoulder": {
+      "label": "Shoulder angle",
+      "value": 76.85344755899246,
+      "n": 17,
+      "iqr": 3.851201485667218,
+      "low": 80.0,
+      "high": 95.0,
+      "graded": true,
+      "grade": "red"
+    },
+    "hip": {
+      "label": "Hip angle at bottom",
+      "value": 104.64664332584861,
+      "n": 17,
+      "iqr": 0.78782541222931,
+      "low": 85.0,
+      "high": 110.0,
+      "graded": false,
+      "grade": "green"
+    }
+  },
+  "hip_angle_top": 65.16737711229467,
+  "advice": [
+    {
+      "area": "Saddle height",
+      "grade": "red",
+      "text": "Knee 27 deg at the bottom -> saddle too high, lower ~10 mm (aiming for ~32 deg). Do it in 5 mm steps and re-film."
+    },
+    {
+      "area": "Reach",
+      "grade": "red",
+      "text": "Shoulder 77 deg, elbow 24 deg -> cockpit is closed/scrunched: reach is short or you're carrying weight on your hands. Try a 10-20 mm longer stem once the saddle is set."
+    },
+    {
+      "area": "Bar height",
+      "grade": "green",
+      "text": "Torso 44 deg from horizontal -> bar height is dialed."
+    },
+    {
+      "area": "Hip angle (info only)",
+      "grade": "green",
+      "text": "Hip 105 deg at the bottom -> within the usual range. At the top of the stroke it closes to 65 deg. Flexibility dependent, so not graded."
+    }
+  ],
+  "height_cm": 183.0
+}

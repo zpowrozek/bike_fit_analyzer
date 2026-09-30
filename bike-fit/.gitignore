@@ -1,0 +1,6 @@
+*.pt
+videos/
+__pycache__/
+# re-encoded copies of the source videos (originals stay on the phone)
+results/**/input.mp4
+results/**/overlay_raw.mp4
