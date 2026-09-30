@@ -1,0 +1,6 @@
+ultralytics   # YOLO11 pose (AGPL-3.0)
+supervision   # video io + drawing (MIT)
+opencv-python
+numpy
+scipy
+torch         # CPU build is fine; CUDA build if you have an NVIDIA GPU

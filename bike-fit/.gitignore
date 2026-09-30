@@ -1,0 +1,4 @@
+*.pt
+results/
+videos/
+__pycache__/
