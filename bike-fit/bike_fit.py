@@ -552,7 +552,8 @@ def report(res: dict) -> str:
 
 def to_json(res: dict) -> dict:
     return dict(side=res["side"], fps=res["fps"], strokes=len(res["bdc"]), cadence_rpm=res["cadence"],
-                pedaling_seconds=res["pedaling_s"], bdc_frames=res["bdc"], tdc_frames=res["tdc"],
+                pedaling_seconds=res["pedaling_s"], bdc_frames=[int(i) for i in res["bdc"]],
+                tdc_frames=[int(i) for i in res["tdc"]],
                 metrics=res["metrics"], hip_angle_top=res["hip_top"], advice=res["advice"],
                 height_cm=res["height_cm"])
 
