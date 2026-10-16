@@ -1,2 +1,2 @@
 # bike_fit_analyzer
-Adjust bike fit but analyzing video input to change joint angles.
+Adjust bike fit by analyzing video input to change joint angles.
